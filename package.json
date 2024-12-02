@@ -1,0 +1,22 @@
+{
+  "name": "pos_guestbook",
+  "version": "1.0.0",
+  "description": "Tool for scraping POS guestbooks (or records of guests with corresponding phone numbers)",
+  "main": "export.js",
+  "scripts": {
+    "export": "node export.js",
+    "process-guestbook": "node process_guestbook.js",
+    "test": "jest"
+  },
+  "type": "module",
+  "author": "Jimmy Cozza",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "csv": "^6.3.11",
+    "playwright": "^1.49.0"
+  }
+}
